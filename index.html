@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>General Spying &amp; Investigation | Educational Case Files</title>
+<meta name="description" content="An educational overview of general investigation methods — private, digital, historical and detective work — presented with respect for privacy, ethics and the law.">
+
+<!-- Google Fonts: Orbitron (display / HUD), Rajdhani (body), Share Tech Mono (data / labels) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ SKIP LINK (Accessibility) ============ -->
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ============ ANIMATED HUD BACKGROUND (decorative, behind everything) ============ -->
+<div class="hud-bg" aria-hidden="true">
+  <div class="hud-grid"></div>
+  <div class="hud-scanline"></div>
+  <div class="hud-glow hud-glow--cyan"></div>
+  <div class="hud-glow hud-glow--green"></div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="logo" aria-label="Case File Zero — Home">
+      <span class="logo-icon" aria-hidden="true">
+        <!-- Detective glass icon -->
+        <svg viewBox="0 0 48 48" width="34" height="34">
+          <circle cx="20" cy="20" r="12" fill="none" stroke="currentColor" stroke-width="3"/>
+          <line x1="29" y1="29" x2="42" y2="42" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="20" cy="20" r="5" fill="currentColor" opacity=".35"/>
+        </svg>
+      </span>
+      <span class="logo-text">CASE<span class="accent">FILE</span>_0</span>
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+    <label for="nav-toggle" class="nav-burger" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#types">Investigation Types</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-radar" aria-hidden="true">
+      <div class="radar-ring r1"></div>
+      <div class="radar-ring r2"></div>
+      <div class="radar-ring r3"></div>
+      <div class="radar-sweep"></div>
+      <div class="radar-dot dot-a"></div>
+      <div class="radar-dot dot-b"></div>
+      <div class="radar-dot dot-c"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="eyebrow">// CLASSIFIED_BRIEFING &nbsp;·&nbsp; EDUCATIONAL ARCHIVE</p>
+      <h1 class="hero-title">General Spying &amp; Investigation</h1>
+      <p class="hero-subtitle-hi" lang="hi">किसी भी तरह की जासूसी</p>
+      <p class="hero-intro">
+        A field guide to how investigators observe, gather, analyse and verify information —
+        told through the lens of private, digital, historical and detective work. Built for
+        curiosity and learning, not for surveillance of any real person.
+      </p>
+      <div class="hero-actions">
+        <a href="#about" class="btn btn-primary">Learn More</a>
+        <a href="#videos" class="btn btn-ghost">Watch Videos</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="eyebrow">// FILE 01</p>
+      <h2 class="section-title">What Investigation Really Means</h2>
+      <p class="section-lead">
+        Investigation is the disciplined process of turning scattered clues into reliable
+        knowledge. It spans many fields — each with its own tools, but the same core habits
+        of careful looking, honest questioning and verified conclusions.
+      </p>
+
+      <div class="card-grid card-grid--about">
+        <article class="glass-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5L20.49 19l-5-5zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/></svg>
+          </span>
+          <h3>Private Investigation</h3>
+          <p>Licensed professionals who verify facts for individuals or businesses — locating
+          public records, confirming backgrounds or resolving disputes within the law.</p>
+        </article>
+
+        <article class="glass-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4 4h16v12H4zm2 2v8h12V6zM2 20h20v2H2z"/></svg>
+          </span>
+          <h3>Digital Investigation</h3>
+          <p>Analysing legitimately obtained digital evidence — logs, metadata and open-source
+          information — to reconstruct events accurately and transparently.</p>
+        </article>
+
+        <article class="glass-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l9 4v6c0 5-3.8 8.7-9 10-5.2-1.3-9-5-9-10V6zm0 2.2L5 7v5c0 3.9 2.9 6.8 7 7.9 4.1-1.1 7-4 7-7.9V7z"/></svg>
+          </span>
+          <h3>Historical Investigation</h3>
+          <p>Piecing together past events from archives, artifacts and testimony to understand
+          what happened and why, using rigorous source criticism.</p>
+        </article>
+
+        <article class="glass-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 1 3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5zm-1.2 13.5-3.3-3.3 1.4-1.4 1.9 1.9 4.9-4.9 1.4 1.4z"/></svg>
+          </span>
+          <h3>Detective Work</h3>
+          <p>Structured reasoning — observation, hypothesis and testing — used to connect facts
+          into a coherent, evidence-backed account.</p>
+        </article>
+
+        <article class="glass-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M9 2v2H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2zm1 4h4v2h-4zM8 11h8v2H8zm0 4h8v2H8z"/></svg>
+          </span>
+          <h3>Evidence Collection</h3>
+          <p>Gathering, labelling and preserving material so it stays trustworthy — a documented
+          chain of custody is what makes a finding credible.</p>
+        </article>
+
+        <article class="glass-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2 1 21h22zm0 4.5 6.8 12H5.2zM11 10h2v5h-2zm0 6h2v2h-2z"/></svg>
+          </span>
+          <h3>Ethical &amp; Legal Limits</h3>
+          <p>Every method above is bound by consent, proportionality and the law — investigation
+          without ethics is simply intrusion.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INVESTIGATION TYPES ============ -->
+  <section class="section section--alt" id="types">
+    <div class="section-inner">
+      <p class="eyebrow">// FILE 02</p>
+      <h2 class="section-title">Investigation Types</h2>
+      <p class="section-lead">Six broad disciplines, each with a distinct focus and skill set.</p>
+
+      <div class="card-grid card-grid--types">
+        <article class="glass-card type-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a5 5 0 0 1 5 5v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h1V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v2h6V7a3 3 0 0 0-3-3z"/></svg>
+          </span>
+          <h3>Criminal Investigation</h3>
+          <p>Reconstructing offences from physical evidence, testimony and forensic analysis
+          under formal legal procedure.</p>
+        </article>
+
+        <article class="glass-card type-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4 5h16v11H4zm2 2v7h12V7zM2 18h20v2H2zm8-13V3h4v2z"/></svg>
+          </span>
+          <h3>Cyber Investigation</h3>
+          <p>Tracing digital incidents through logs and network artefacts to understand how a
+          system event happened, within legal authorisation.</p>
+        </article>
+
+        <article class="glass-card type-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 21V9l9-6 9 6v12h-6v-7h-6v7z"/></svg>
+          </span>
+          <h3>Corporate Investigation</h3>
+          <p>Reviewing internal policy breaches, fraud claims or compliance gaps for
+          organisations, following due process.</p>
+        </article>
+
+        <article class="glass-card type-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22zm.9 5v1.3c1.6.3 2.7 1.3 2.8 2.7h-1.7c-.1-.7-.7-1.2-1.6-1.3v2.6c1.9.5 3 1.3 3 2.9 0 1.6-1.2 2.7-3 2.9V18h-1.1v-1.3c-1.8-.2-3-1.2-3.1-2.8h1.7c.1.8.7 1.3 1.7 1.4v-2.7c-1.8-.5-2.9-1.3-2.9-2.8 0-1.5 1.2-2.6 2.9-2.8V5.5z"/></svg>
+          </span>
+          <h3>Financial Investigation</h3>
+          <p>Following transactions and records to detect irregularities such as fraud or money
+          laundering, using audited data trails.</p>
+        </article>
+
+        <article class="glass-card type-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M13 2v6h6l-8 14v-6H5z" opacity="0"/><path fill="currentColor" d="M6 2h9l5 5v15H6zm8 1.5V8h4.5zM8 12h8v2H8zm0 4h8v2H8z"/></svg>
+          </span>
+          <h3>Historical Investigation</h3>
+          <p>Cross-referencing archival documents and artefacts to authenticate and interpret
+          events from the past.</p>
+        </article>
+
+        <article class="glass-card type-card">
+          <div class="card-frame" aria-hidden="true"></div>
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M9 2h6v2h-1v3.3l5 9.7a2 2 0 0 1-1.8 2.9H6.8A2 2 0 0 1 5 17l5-9.7V4H9zm2 2v4l-4 7.5h10L13 8V4z"/></svg>
+          </span>
+          <h3>Scientific Investigation</h3>
+          <p>Testing hypotheses through controlled observation and repeatable experiments —
+          the method underlying forensic and research science alike.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VIDEOS ============ -->
+  <section class="section" id="videos">
+    <div class="section-inner">
+      <p class="eyebrow">// FILE 03</p>
+      <h2 class="section-title">Field Footage</h2>
+      <p class="section-lead">Educational videos on investigative thinking and methodology.
+      <em>(Replace the placeholder video IDs below with your own licensed content.)</em></p>
+
+      <div class="video-grid">
+
+        <article class="glass-card video-card">
+          <div class="video-frame">
+            <iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Introduction to Investigative Thinking" allowfullscreen></iframe>
+          </div>
+          <h3>Introduction to Investigative Thinking</h3>
+          <p>The core mindset behind every investigation: question first, conclude last.</p>
+        </article>
+
+        <article class="glass-card video-card">
+          <div class="video-frame">
+            <iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID_2" title="How Evidence Is Documented" allowfullscreen></iframe>
+          </div>
+          <h3>How Evidence Is Documented</h3>
+          <p>Chain of custody and why paperwork protects the truth.</p>
+        </article>
+
+        <article class="glass-card video-card">
+          <div class="video-frame">
+            <iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID_3" title="Basics of Digital Forensics" allowfullscreen></iframe>
+          </div>
+          <h3>Basics of Digital Forensics</h3>
+          <p>An ethical, high-level look at how digital trails are analysed legally.</p>
+        </article>
+
+        <article class="glass-card video-card">
+          <div class="video-frame">
+            <iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID_4" title="Reading a Crime Scene" allowfullscreen></iframe>
+          </div>
+          <h3>Reading a Crime Scene</h3>
+          <p>Observation techniques used by forensic teams before anything is touched.</p>
+        </article>
+
+        <article class="glass-card video-card">
+          <div class="video-frame">
+            <iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID_5" title="Interviewing Witnesses" allowfullscreen></iframe>
+          </div>
+          <h3>Interviewing Witnesses</h3>
+          <p>Why open-ended questions produce more reliable testimony.</p>
+        </article>
+
+        <article class="glass-card video-card">
+          <div class="video-frame">
+            <iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID_6" title="Ethics in Investigation" allowfullscreen></iframe>
+          </div>
+          <h3>Ethics in Investigation</h3>
+          <p>Where legitimate inquiry ends and privacy invasion begins.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section section--alt" id="gallery">
+    <div class="section-inner">
+      <p class="eyebrow">// FILE 04</p>
+      <h2 class="section-title">Evidence Board</h2>
+      <p class="section-lead">A visual vocabulary of the tools investigators use.</p>
+
+      <div class="gallery-grid">
+
+        <figure class="glass-card gallery-tile">
+          <div class="card-frame" aria-hidden="true"></div>
+          <svg viewBox="0 0 64 64" class="gallery-icon" role="img" aria-label="Magnifying glass icon">
+            <circle cx="26" cy="26" r="16" fill="none" stroke="currentColor" stroke-width="3"/>
+            <line x1="38" y1="38" x2="55" y2="55" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+          <figcaption>Magnifying Glass</figcaption>
+        </figure>
+
+        <figure class="glass-card gallery-tile">
+          <div class="card-frame" aria-hidden="true"></div>
+          <svg viewBox="0 0 64 64" class="gallery-icon" role="img" aria-label="Fingerprint icon">
+            <path fill="none" stroke="currentColor" stroke-width="2.5" d="M32 10a18 18 0 0 1 18 18c0 10-4 16-6 20M32 10a18 18 0 0 0-18 18c0 8 2 13 4 17M32 16a12 12 0 0 1 12 12c0 8-3 13-5 17M32 16a12 12 0 0 0-12 12c0 7 2 12 4 16M32 22a6 6 0 0 1 6 6c0 6-2 10-4 14"/>
+          </svg>
+          <figcaption>Fingerprint Pattern</figcaption>
+        </figure>
+
+        <figure class="glass-card gallery-tile">
+          <div class="card-frame" aria-hidden="true"></div>
+          <svg viewBox="0 0 64 64" class="gallery-icon" role="img" aria-label="Map icon">
+            <path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" d="M8 14l16-6 16 6 16-6v42l-16 6-16-6-16 6z"/>
+            <path fill="none" stroke="currentColor" stroke-width="2" d="M24 8v42M40 14v42" stroke-dasharray="3 3"/>
+            <circle cx="30" cy="30" r="3" fill="currentColor"/>
+          </svg>
+          <figcaption>Location Mapping</figcaption>
+        </figure>
+
+        <figure class="glass-card gallery-tile">
+          <div class="card-frame" aria-hidden="true"></div>
+          <svg viewBox="0 0 64 64" class="gallery-icon" role="img" aria-label="Evidence marker icon">
+            <rect x="24" y="10" width="16" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <text x="32" y="25" font-size="12" text-anchor="middle" fill="currentColor" font-family="monospace">A</text>
+            <line x1="32" y1="30" x2="32" y2="54" stroke="currentColor" stroke-width="2.5"/>
+          </svg>
+          <figcaption>Evidence Marker</figcaption>
+        </figure>
+
+        <figure class="glass-card gallery-tile">
+          <div class="card-frame" aria-hidden="true"></div>
+          <svg viewBox="0 0 64 64" class="gallery-icon" role="img" aria-label="Document icon">
+            <path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" d="M16 6h22l10 10v42H16z"/>
+            <path fill="none" stroke="currentColor" stroke-width="2" d="M38 6v10h10M22 30h20M22 38h20M22 46h14"/>
+          </svg>
+          <figcaption>Case Documents</figcaption>
+        </figure>
+
+        <figure class="glass-card gallery-tile">
+          <div class="card-frame" aria-hidden="true"></div>
+          <svg viewBox="0 0 64 64" class="gallery-icon" role="img" aria-label="Notebook icon">
+            <rect x="12" y="8" width="36" height="48" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <line x1="12" y1="18" x2="48" y2="18" stroke="currentColor" stroke-width="2"/>
+            <line x1="18" y1="28" x2="42" y2="28" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="18" y1="34" x2="42" y2="34" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="18" y1="40" x2="34" y2="40" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+          <figcaption>Detective's Notebook</figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TIMELINE ============ -->
+  <section class="section" id="timeline">
+    <div class="section-inner">
+      <p class="eyebrow">// FILE 05</p>
+      <h2 class="section-title">The Investigation Process</h2>
+      <p class="section-lead">Every credible investigation moves through the same five stages.</p>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-marker">01</div>
+          <div class="glass-card timeline-content">
+            <div class="card-frame" aria-hidden="true"></div>
+            <h3>Observation</h3>
+            <p>Notice what is unusual, out of place, or worth questioning — the starting spark
+            of any inquiry.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">02</div>
+          <div class="glass-card timeline-content">
+            <div class="card-frame" aria-hidden="true"></div>
+            <h3>Information Collection</h3>
+            <p>Gather relevant, lawfully obtained facts, records and testimony related to the
+            observation.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">03</div>
+          <div class="glass-card timeline-content">
+            <div class="card-frame" aria-hidden="true"></div>
+            <h3>Analysis</h3>
+            <p>Compare, cross-reference and interpret the collected information for patterns
+            and inconsistencies.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">04</div>
+          <div class="glass-card timeline-content">
+            <div class="card-frame" aria-hidden="true"></div>
+            <h3>Verification</h3>
+            <p>Confirm findings against independent sources before treating them as reliable.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">05</div>
+          <div class="glass-card timeline-content">
+            <div class="card-frame" aria-hidden="true"></div>
+            <h3>Reporting</h3>
+            <p>Document conclusions clearly, transparently and within the bounds of the law.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section--alt" id="faq">
+    <div class="section-inner">
+      <p class="eyebrow">// FILE 06</p>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+
+      <div class="accordion">
+        <details class="accordion-item" name="faq">
+          <summary>What is an investigation?</summary>
+          <div class="accordion-body">
+            <p>An investigation is a structured process of gathering and analysing information
+            to understand a specific event, question or claim, with conclusions supported by
+            verifiable evidence.</p>
+          </div>
+        </details>
+
+        <details class="accordion-item" name="faq">
+          <summary>How is evidence collected?</summary>
+          <div class="accordion-body">
+            <p>Evidence is collected through lawful observation, documentation, interviews and
+            record review, always preserving a clear chain of custody so it remains
+            trustworthy.</p>
+          </div>
+        </details>
+
+        <details class="accordion-item" name="faq">
+          <summary>What are digital investigations?</summary>
+          <div class="accordion-body">
+            <p>Digital investigations examine data such as logs, files and metadata that a
+            person or organisation is lawfully authorised to access, in order to reconstruct
+            what happened on a system or account.</p>
+          </div>
+        </details>
+
+        <details class="accordion-item" name="faq">
+          <summary>What ethical rules apply?</summary>
+          <div class="accordion-body">
+            <p>Consent, proportionality, transparency and respect for privacy laws govern every
+            legitimate investigation. Surveillance without authority or consent is not
+            investigation — it is a violation.</p>
+          </div>
+        </details>
+
+        <details class="accordion-item" name="faq">
+          <summary>Why is documentation important?</summary>
+          <div class="accordion-body">
+            <p>Clear documentation lets others verify how a conclusion was reached, which is
+            what separates a credible finding from a mere assumption.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ETHICS NOTE ============ -->
+  <section class="ethics-note">
+    <div class="section-inner">
+      <div class="glass-card ethics-card">
+        <div class="card-frame" aria-hidden="true"></div>
+        <span class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 1 3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5zm0 4a3 3 0 0 1 1.6 5.5v2.5h-3.2v-2.5A3 3 0 0 1 12 5z"/></svg>
+        </span>
+        <p><strong>A note on ethics:</strong> This site is an educational resource about how
+        investigation works as a discipline. It does not provide instructions for unauthorised
+        surveillance, hacking or invading anyone's privacy. Always respect consent, applicable
+        laws and the rights of others when researching or investigating anything in real life.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <p class="eyebrow">// FILE 07</p>
+      <h2 class="section-title">Open a Case File</h2>
+      <p class="section-lead">Questions about this archive? Send a message below.</p>
+
+      <form class="glass-card contact-form" action="https://formsubmit.co/ns3nitinsingh@gmail.com" method="POST">
+        <div class="card-frame" aria-hidden="true"></div>
+
+        <!-- FormSubmit configuration (no backend / no JS needed) -->
+        <input type="hidden" name="_subject" value="New message — CaseFile_0 contact form">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <!-- Honeypot field to catch spam bots -->
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="form-row">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+
+    <div class="footer-brand">
+      <span class="logo-text">CASE<span class="accent">FILE</span>_0</span>
+      <p>An educational archive on investigation methods, ethics and history.</p>
+    </div>
+
+    <nav class="footer-links" aria-label="Legal">
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Use</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer-social" aria-label="Social media links">
+      <a href="#" aria-label="Twitter / X">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M22 5.9c-.7.3-1.5.6-2.3.7.8-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1a4.1 4.1 0 0 0-7 3.7A11.7 11.7 0 0 1 3.4 4.6a4.1 4.1 0 0 0 1.3 5.5c-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.6 3.3 4a4.1 4.1 0 0 1-1.9.1c.5 1.6 2 2.8 3.9 2.9A8.3 8.3 0 0 1 2 18.6a11.7 11.7 0 0 0 6.3 1.9c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg>
+      </a>
+      <a href="#" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zm7 0h3.8v1.7h.05c.53-1 1.83-2 3.77-2 4 0 4.73 2.6 4.73 6V21H18v-5.3c0-1.26-.02-2.9-1.76-2.9-1.76 0-2.03 1.4-2.03 2.8V21H10z"/></svg>
+      </a>
+      <a href="#" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.1.39-1.99 1.03-2.7-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.71 1.03 1.6 1.03 2.7 0 3.85-2.35 4.7-4.58 4.94.36.32.68.94.68 1.9v2.82c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+      </a>
+    </div>
+
+    <p class="footer-copy">&copy; 2026 CaseFile_0 — Educational use only. All investigation
+    content is illustrative and not a guide to real surveillance.</p>
+  </div>
+</footer>
+
+</body>
+</html>
